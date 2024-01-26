@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style2.css" rel="stylesheet">
+    <title>Projects</title>
+</head>
+<body>
+
+  <div class="menu">
+    <ul>
+      <li><a href="/index.html" data-text="Home">Home</a></li>
+      <li><a href="/Pages/about.html" data-text="About">About</a></li>
+      <li><a href="/Pages/projects.html" data-text="Projects">Projects</a></li>
+    </ul>
+  </div>
+
+
+
+
+<h2>PORTFOLIO</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('Personal')">Personal</button>
+  <button class="btn" onclick="filterSelection('Games')">Games</button>
+  <button class="btn" onclick="filterSelection('E-commerce')">E-commerce</button>
+</div>
+
+  <div class="row">
+    <div class="column Personal">
+      <div class="content">
+        <img src="/Sisipho Fikizolo.png" alt="persoanl phonto" height="400" width=100%>
+        <h4>Resume</h4>
+        <p>My personal professional resume click below to learn more</p>
+        <a href="/Projects/resume.html">View</a>
+      </div>
+    </div>
+    <div class="column Games">
+      <div class="content">
+        <img src="/Screenshot 2024-01-24 150842.png" alt="RockPaperScissor" height="400" width=100%>
+        <h4>RockPaperScissor</h4>
+        <p>Let's play RockPaperScissor, click below to play </p>
+        <a href="/Projects/RockPaperScissor.html">View</a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
